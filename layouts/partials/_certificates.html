@@ -7,7 +7,7 @@
         <ul>
             {{ range .Certificates }}
             <li class="certificates__item">
-                <img src="{{ .Badge }}"> <span>{{ .Name | safeHTML }}</span>
+		<span>{{ .Name | safeHTML }}</span>
             </li>
             {{ end }}
         </ul>
